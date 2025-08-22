@@ -27,7 +27,7 @@ jobs:
           ls -la
           ls -la target/jmeter/results
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.7.2
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
           folder: target/jmeter/results/report
